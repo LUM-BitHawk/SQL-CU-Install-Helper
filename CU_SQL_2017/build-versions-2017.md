@@ -1,7 +1,7 @@
 ---
 title: SQL Server 2017 build versions (KB4047329)
 description: This article lists cumulative update and GDR builds for SQL Server 2017.
-ms.date: 05/12/2026
+ms.date: 11/10/2026
 ms.update-cycle: 1095-days
 ms.custom: sap:Installation, Patching, Upgrade, Uninstall, evergreen, KB4047329
 appliesto:
@@ -58,10 +58,18 @@ This article lists the Microsoft SQL Server 2017 builds that were released after
 | CU1           | 14.0.3006.16 | 2017.140.3006.16 | 14.0.1.439  | 2017.140.1.439  | [KB4038634](cumulativeupdate1.md)  | October 24, 2017   |
 | RTM | 14.0.1000.169 | 2017.140.1000.169 | 14.0.1.439 | 2017.140.1.439 | [SQL Server 2017 release notes](/sql/sql-server/sql-server-2017-release-notes) | September 29, 2017 |
 
-## SQL Server 2017 GDR builds
+## SQL Server 2017 General Distribution Release (GDR) builds
 
 | Cumulative update name | SQL Server product version | SQL Server (sqlservr.exe) file version | Analysis Services product version | Analysis Services (msmdsrv.exe) file version | Knowledge Base number | Release date |
 |------------|---------------|-------------------|--------------|------------------|---------------------------------------------------------|--------------------|
+| CU31 + GDR | 14.0.3570.2   | 2017.140.3570.2   | 14.0.249.120 | 2017.140.249.120 | [KB5132746](https://support.microsoft.com/help/5132746) | November 10, 2026   |
+| GDR        | 14.0.2150.2   | 2017.140.2150.2   | 14.0.6.482   | 2017.140.6.482   | [KB5132749](https://support.microsoft.com/help/5132749) | November 10, 2026   |
+| CU31 + GDR | 14.0.3560.2   | 2017.140.3560.2   | 14.0.249.120 | 2017.140.249.120 | [KB5128496](https://support.microsoft.com/help/5128496) | October 13, 2026   |
+| GDR        | 14.0.2140.2   | 2017.140.2140.2   | 14.0.6.482   | 2017.140.6.482   | [KB5128497](https://support.microsoft.com/help/5128497) | October 13, 2026   |
+| CU31 + GDR | 14.0.3550.4   | 2017.140.3550.4   | 14.0.249.120 | 2017.140.249.120 | [KB5122774](https://support.microsoft.com/help/5122774) | September 08, 2026   |
+| GDR        | 14.0.2130.4   | 2017.140.2130.4   | 14.0.6.482   | 2017.140.6.482   | [KB5122775](https://support.microsoft.com/help/5122775) | September 08, 2026   |
+| CU31 + GDR | 14.0.3540.1   | 2017.140.3540.1   | 14.0.249.120 | 2017.140.249.120 | [KB5102337](https://support.microsoft.com/help/5102337) | July 14, 2026   |
+| GDR        | 14.0.2120.1   | 2017.140.2120.1   | 14.0.6.482   | 2017.140.6.482   | [KB5102338](https://support.microsoft.com/help/5102338) | July 14, 2026   |
 | CU31 + GDR | 14.0.3530.2   | 2017.140.3530.2   | 14.0.249.120 | 2017.140.249.120 | [KB5090354](https://support.microsoft.com/help/5090354) | May 12, 2026   |
 | GDR        | 14.0.2110.2  |  2017.140.2110.2   | 14.0.6.482   | 2017.140.6.482   | [KB5090347](https://support.microsoft.com/help/5090347) | May 12, 2026   |
 | CU31 + GDR | 14.0.3525.1   | 2017.140.3525.1   | 14.0.249.120 | 2017.140.249.120 | [KB5084818](https://support.microsoft.com/help/5084818) | April 14, 2026   |
