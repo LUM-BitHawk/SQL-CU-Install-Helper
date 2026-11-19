@@ -1,7 +1,7 @@
 ---
 title: SQL Server 2025 build versions (KB5005684)
 description: This article lists cumulative update and GDR builds for SQL Server 2025.
-ms.date: 05/20/2026
+ms.date: 11/12/2026
 ms.update-cycle: 1095-days
 ms.custom: sap:Installation, Patching, Upgrade, Uninstall, evergreen, KB5005684
 appliesto:
@@ -14,25 +14,39 @@ This article lists the Microsoft SQL Server 2025 builds that were released after
 
 ## SQL Server 2025 Cumulative Update (CU) builds
 
-| Cumulative update name | SQL Server build version | SQL Server (sqlservr.exe) file version | Analysis Services build version | Analysis Services (msmdsrv.exe) file version | Knowledge Base number             | Release date      |
-| ---------------------- | ------------------------ | -------------------------------------- | ------------------------------- | -------------------------------------------- | --------------------------------- | ----------------- |
-| CU5 (Latest)           | 17.0.4045.5              | 2025.170.4045.5                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5084896](cumulativeupdate5.md) | May 20, 2026      |
-| CU4                    | 17.0.4035.5              | 2025.170.4035.5                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5081495](cumulativeupdate4.md) | April 16, 2026    |
-| CU3                    | 17.0.4025.3              | 2025.170.4025.3                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5077896](cumulativeupdate3.md) | March 12, 2026    |
-| CU2                    | 17.0.4015.4              | 2025.170.4015.4                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5075211](cumulativeupdate2.md) | February 12, 2026 |
-| CU1                    | 17.0.4006.2              | 2025.170.4006.2                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5078298](cumulativeupdate1.md) | January 29, 2026  |
+| Cumulative update name | SQL Server build version | SQL Server (sqlservr.exe) file version | Analysis Services build version | Analysis Services (msmdsrv.exe) file version | Knowledge Base number             | Release date       |
+| ---------------------- | ------------------------ | --------------------------------------- | -------------------------------- | -------------------------------------------- | ---------------------------------- | ------------------ |
+| CU11 (Latest)          | 17.0.5065.9              | 2025.170.5065.9                        | 17.0.25.227                     | 2025.170.25.227                              | [KB5129223](https://support.microsoft.com/help/5129223) | November 12, 2026  |
+| CU10                   | 17.0.5035.5              | 2025.170.5035.5                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5125471](cumulativeupdate10.md) | October 22, 2026   |
+| CU9                    | 17.0.5005.3              | 2025.170.5005.3                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5122048](cumulativeupdate9.md) | September 15, 2026 |
+| CU8                    | 17.0.4075.5              | 2025.170.4075.5                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5104822](cumulativeupdate8.md) | August 13, 2026    |
+| CU7                    | 17.0.4065.4              | 2025.170.4065.4                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5096981](cumulativeupdate7.md) | July 16, 2026      |
+| CU6                    | 17.0.4055.5              | 2025.170.4055.5                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5093421](cumulativeupdate6.md) | June 17, 2026      |
+| CU5                    | 17.0.4045.5              | 2025.170.4045.5                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5084896](cumulativeupdate5.md) | May 20, 2026       |
+| CU4                    | 17.0.4035.5              | 2025.170.4035.5                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5081495](cumulativeupdate4.md) | April 16, 2026     |
+| CU3                    | 17.0.4025.3              | 2025.170.4025.3                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5077896](cumulativeupdate3.md) | March 12, 2026     |
+| CU2                    | 17.0.4015.4              | 2025.170.4015.4                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5075211](cumulativeupdate2.md) | February 12, 2026  |
+| CU1                    | 17.0.4006.2              | 2025.170.4006.2                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5078298](cumulativeupdate1.md) | January 29, 2026   |
 
 ## SQL Server 2025 GDR builds
 
-| GDR name  | SQL Server build version | SQL Server (sqlservr.exe) file version | Analysis Services build version | Analysis Services (msmdsrv.exe) file version | Knowledge Base number                                   | Release date     |
-| --------- | ------------------------ | -------------------------------------- | ------------------------------- | -------------------------------------------- | ------------------------------------------------------- | ---------------- |
-| CU4 + GDR | 17.0.4040.1              | 2025.170.4040.1                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5089899](https://support.microsoft.com/help/5089899) | May 12, 2026     |
-| GDR       | 17.0.1115.1              | 2025.170.1115.1                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5091223](https://support.microsoft.com/help/5091223) | May 12, 2026     |
-| CU3 + GDR | 17.0.4030.1              | 2025.170.4030.1                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5083245](https://support.microsoft.com/help/5083245) | April 14, 2026   |
-| GDR       | 17.0.1110.1              | 2025.170.1110.1                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5084814](https://support.microsoft.com/help/5084814) | April 14, 2026   |
-| CU2 + GDR | 17.0.4020.2              | 2025.170.4020.2                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5077466](https://support.microsoft.com/help/5077466) | March 10, 2026   |
-| GDR       | 17.0.1105.2              | 2025.170.1105.2                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5077468](https://support.microsoft.com/help/5077468) | March 10, 2026   |
-| GDR       | 17.0.1050.2              | 2025.170.1050.2                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5073177](https://support.microsoft.com/help/5073177) | January 13, 2026 |
+| GDR name  | SQL Server build version | SQL Server (sqlservr.exe) file version | Analysis Services build version | Analysis Services (msmdsrv.exe) file version | Knowledge Base number                                   | Release date      |
+| --------- | ------------------------ | --------------------------------------- | -------------------------------- | -------------------------------------------- | --------------------------------------------------------- | ------------------ |
+| CU10 + GDR | 17.0.5045.3              | 2025.170.5045.3                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5129299](https://support.microsoft.com/help/5129299) | November 10, 2026 |
+| GDR       | 17.0.1155.3              | 2025.170.1155.3                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5132748](https://support.microsoft.com/help/5132748) | November 10, 2026 |
+| CU9 + GDR | 17.0.5015.4              | 2025.170.5015.4                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5126967](https://support.microsoft.com/help/5126967) | October 13, 2026  |
+| GDR       | 17.0.1145.4              | 2025.170.1145.4                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5128492](https://support.microsoft.com/help/5128492) | October 13, 2026  |
+| CU8 + GDR | 17.0.4085.5              | 2025.170.4085.5                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5122769](https://support.microsoft.com/help/5122769) | September 8, 2026 |
+| GDR       | 17.0.1135.8              | 2025.170.1135.8                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5122770](https://support.microsoft.com/help/5122770) | September 8, 2026 |
+| CU6 + GDR | 17.0.4060.2              | 2025.170.4060.2                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5101346](https://support.microsoft.com/help/5101346) | July 14, 2026      |
+| GDR       | 17.0.1125.2              | 2025.170.1125.2                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5102333](https://support.microsoft.com/help/5102333) | July 14, 2026      |
+| CU4 + GDR | 17.0.4040.1              | 2025.170.4040.1                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5089899](https://support.microsoft.com/help/5089899) | May 12, 2026       |
+| GDR       | 17.0.1115.1              | 2025.170.1115.1                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5091223](https://support.microsoft.com/help/5091223) | May 12, 2026       |
+| CU3 + GDR | 17.0.4030.1              | 2025.170.4030.1                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5083245](https://support.microsoft.com/help/5083245) | April 14, 2026     |
+| GDR       | 17.0.1110.1              | 2025.170.1110.1                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5084814](https://support.microsoft.com/help/5084814) | April 14, 2026     |
+| CU2 + GDR | 17.0.4020.2              | 2025.170.4020.2                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5077466](https://support.microsoft.com/help/5077466) | March 10, 2026     |
+| GDR       | 17.0.1105.2              | 2025.170.1105.2                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5077468](https://support.microsoft.com/help/5077468) | March 10, 2026     |
+| GDR       | 17.0.1050.2              | 2025.170.1050.2                        | 17.0.25.223                     | 2025.170.25.223                              | [KB5073177](https://support.microsoft.com/help/5073177) | January 13, 2026   |
 
 ## References
 
